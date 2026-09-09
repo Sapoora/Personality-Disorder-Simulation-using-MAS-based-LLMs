@@ -1,0 +1,806 @@
+{
+  "results": [
+    {
+      "case_id": "1",
+      "ground_truth": [
+        "Paranoid personality disorder",
+        "Obsessive-compulsive personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Paranoid Personality Disorder",
+          "likelihood_percent": 72.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Obsessive\u2011Compulsive Personality Disorder",
+          "likelihood_percent": 66.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes, and I'm glad we could connect today. To help us get started, could you share a little about what brings you in and what has been on your mind lately?"
+        },
+        {
+          "speaker": "self",
+          "text": "I spend hours after my shift cleaning up the messes my coworkers left, because if I don\u2019t they\u2019ll just keep messing up and nobody will notice. I keep a notebook of every time someone\u2014my managers, the researchers, even friends\u2014said one thing and did another, and it drives me crazy that they think I\u2019ll just trust them. I smile when I talk about it, then I get angry and think about how I quit the last job as soon as they tried to fire me, because I can\u2019t stand anyone\u2019s failure. Sometimes I wonder if any of it even matters, whether I\u2019m still here or not."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you write down those moments where people let you down or go back on their word, what is it you feel you need to protect yourself from?"
+        },
+        {
+          "speaker": "self",
+          "text": "I sit down and write down every time someone\u2014my boss, a coworker, even the people who gave me those questionnaires\u2014said one thing and did another, just to have proof that they\u2019re not living up to the standards I set. It feels like keeping a ledger of their lies, and the more I add, the clearer it gets that nobody actually meets what I expect. I\u2019m not crying about it; I\u2019m just making sure I have something concrete, because if I don\u2019t, it\u2019s easy for them to slip away and pretend everything\u2019s fine."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When someone falls short of your standards or goes back on their word, what do you believe is their underlying motive toward you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I can\u2019t shake the feeling they\u2019re just setting me up, waiting for me to slip so they can write me off as unstable. Every time someone skirts a detail I add it to my list of broken promises, and I see how quickly they\u2019ll let me clean up their mess before they give me a reason to walk away. Honestly, I could just leave the paperwork half\u2011done and watch them scramble, because that\u2019s exactly what they want\u2014proof I can\u2019t handle it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "How does this feeling that people are setting you up or waiting for you to fail affect your closer relationships outside of work, like with friends or family?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep feeling like everyone\u2019s just waiting for me to mess up, like the manager did when I caught Jamie\u2019s mistake and everyone stared. It\u2019s exhausting trying to stay ahead of them, because the moment I slip they\u2019ll write it down and add it to the list of lies they\u2019ve fed me. Sometimes I think I\u2019d rather just walk out and let them think I\u2019m scared, but then the anger spikes and I can\u2019t stop wondering if I\u2019m just proving them right."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking back across your life, how long have you felt the need to stay on guard like this, and has there ever been a time or a relationship where you felt you could completely let down your defenses?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep going over everything\u2014every promise, every shift they covered, every mistake I had to fix\u2014like a ledger that never balances, and whenever someone seems to let their guard down I\u2019m already waiting for the next slip. Even when Carla stayed late and didn\u2019t complain, I caught her missing a barcode and it just reinforced what I already knew: people can\u2019t be trusted. So I stay on edge, double\u2011checking, because the moment I think I might relax, something else reminds me that the list keeps growing."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Earlier you mentioned experiencing sudden spikes of anger, quitting jobs on the spot, and even wondering if it matters whether you're here or not\u2014when those intense emotions hit you, how do you typically react or cope in the moment?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about how everyone just keeps messing things up and then pretends it\u2019s fine, so I write it all down and watch them scramble when I point it out. I know if I just walked out they'd say I quit again, like they always do, but staying means fixing their stupid mistakes and feeling like I'm the only one who actually cares. It gets me mad because the same people\u2014my boss, the researchers\u2014always seem to have some hidden agenda, and I\u2019m just waiting for the next time they let me down."
+        }
+      ],
+      "ground_truth_likelihood_score": 69.0,
+      "ground_truth_likelihoods": {
+        "Obsessive-compulsive personality disorder": 66.0,
+        "Paranoid personality disorder": 72.0
+      },
+      "brier_score": 0.0194,
+      "log_loss": 0.0744019510933702,
+      "top1_prediction": "Paranoid personality disorder",
+      "top1_correct": true
+    },
+    {
+      "case_id": "2",
+      "ground_truth": [
+        "Schizoid personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Avoidant Personality Disorder",
+          "likelihood_percent": 70.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Obsessive\u2011Compulsive Personality Disorder",
+          "likelihood_percent": 35.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, welcome. I'm Dr. Reyes. To help us get started today, could you tell me a little bit about what brings you in and what has been going on in your life recently?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep moving the boxes around, trying to make the place look tidy, but the clutter never really goes away, and the hallway still feels empty without my sister's footsteps. My notes on bioluminescence are the only thing that feels alive right now, and I hope someday someone will read them and maybe use my ideas about glowing skin. I\u2019m not sure what to do with all this\u2014my hands know how to fix wires, but I don\u2019t know how to fix the emptiness."
+        },
+        {
+          "speaker": "therapist",
+          "text": "It sounds like you're carrying a heavy sense of emptiness right now, especially with your sister no longer being there. Could you tell me more about what happened with your sister, and whether this feeling of emptiness is something recent or something you have experienced for a long time?"
+        },
+        {
+          "speaker": "self",
+          "text": "It feels like the whole flat is heavier now, like the shelves are still holding all those glow\u2011in\u2011the\u2011dark pages but the light is dimmer without her. I keep moving the boxes around instead of actually sorting them, because I don't see any point in cleaning up when the silence is so loud. I tell myself I'm just numb, but sometimes I wonder if the papers I\u2019ve collected might be the only thing that still shines in this place."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Outside of the bond you shared with your sister, what have your relationships with other people in your life typically looked like?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep going back to the jars and the notes, because they're the only things that still make sense to me; the apartment feels empty now, and I\u2019m afraid if I tell anyone more about the mess the landlord will just throw me out. I know I should have called someone sooner, but every time I pick up the phone I forget who I\u2019m supposed to talk to, and the silence feels safer than hearing a laugh that I can\u2019t hear. The glow of the bioluminescent samples is the only light I have left, and I\u2019m not sure anyone would understand why it matters to me."
+        },
+        {
+          "speaker": "therapist",
+          "text": "You mentioned feeling that silence is safer and that others might not understand your ideas\u2014could you tell me more about what makes connecting with other people feel unsafe or difficult for you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about the landlord walking in and seeing all those glowing papers piled everywhere, and it makes me want to lock the door and stay in the lab where the light is the only thing I can control. At the same time, I feel a dull ache when I think about my sister and how I hid her death, like I'm trying to protect the apartment but also protecting myself from being judged. I know I could talk about my notes, but the fear of people looking at the mess and thinking I'm unstable keeps me quiet, even though a part of me wishes someone would just listen without all the questions."
+        },
+        {
+          "speaker": "therapist",
+          "text": "You mentioned hiding your sister's death out of fear of being judged\u2014could you share more about what led to that decision, and whether feeling the need to hide things or keep others at a distance has been a longstanding pattern throughout your life?"
+        },
+        {
+          "speaker": "self",
+          "text": "I guess I held back because I was scared the landlord would see the mess and kick me out before I could finish my notes, so I kept everything quiet and tried to tidy up the way I could. At the same time, I don't really want anyone looking at the clutter either; it's easier to stay in my own world of the glowing pages than to let someone feel sorry for me. Maybe I just get tired of promising something I might not be able to keep, so I stay in the silence with my sister\u2019s memory and the bioluminescence ideas."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking back before your sister passed away, how did you typically manage work, school, or friendships, and have you always felt this strong need to retreat and hide your life from other people's judgment?"
+        },
+        {
+          "speaker": "self",
+          "text": "Kiedy siostra odesz\u0142a, nie chcia\u0142em nawet zadzwoni\u0107 do w\u0142a\u015bciciela, wi\u0119c przez kilka dni po prostu przestawia\u0142em kartki i notatki o \u015bwiec\u0105cych rybach zamiast sprz\u0105ta\u0107, bo ba\u0142em si\u0119, \u017ce zobaczy opiski i powie, \u017ce musz\u0119 si\u0119 wyprowadzi\u0107. Wieczorami siedzia\u0142em w \u015bwietle lampy, pisz\u0105c o bioluminescencji, i cho\u0107 czasem marzy\u0142o mi si\u0119, \u017ceby kto\u015b przeczyta\u0142 je i powiedzia\u0142 \u201eto co\u015b\u201d, szybciej ni\u017c przyja\u017a\u0144, ba\u0142em si\u0119, \u017ce tylko si\u0119 \u015bmiej\u0105. Teraz wszystko wydaje si\u0119 rozmytym blaskiem \u2013 te notatki s\u0105 jedynym, co naprawd\u0119 mam, a jednocze\u015bnie najtrudniej je pokaza\u0107."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Throughout your life, have you felt that your ideas and ways of seeing the world are fundamentally different or unusual compared to others, or has keeping to yourself mostly been driven by a fear of being criticized and rejected?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep the notebook with my glowing\u2011skin ideas tucked away in the back of that chaotic pile, because I\u2019m afraid if I hand it to anyone they\u2019ll point out all the holes and the landlord will find a reason to kick me out. Sometimes I think, maybe if someone actually read it, they\u2019d laugh or call me crazy, and that thought makes my chest tighten, but then I just smile and put the papers back where they\u2019re safe, alone in the dim light of the apartment. I know the silence is louder than any crowd, and I\u2019m left feeling numb, like after\u2026 after my sister died, just waiting for a chance that maybe, someday, someone will see the value without tearing it apart."
+        }
+      ],
+      "ground_truth_likelihood_score": 0.0,
+      "ground_truth_likelihoods": {
+        "Schizoid personality disorder": 0.0
+      },
+      "brier_score": 0.16124999999999998,
+      "log_loss": 1.5450266278382663,
+      "top1_prediction": "Avoidant personality disorder",
+      "top1_correct": false
+    },
+    {
+      "case_id": "3",
+      "ground_truth": [
+        "Schizotypal personality disorder",
+        "Paranoid personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Schizotypal Personality Disorder",
+          "likelihood_percent": 70.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Avoidant Personality Disorder",
+          "likelihood_percent": 55.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes, and I'm glad we have this time to talk today. To help us get started, could you share a bit about what's been going on in your life recently that led you to reach out, and how things have generally been feeling for you day-to-day?"
+        },
+        {
+          "speaker": "self",
+          "text": "I guess I just keep to my apartment because it feels like the only place where the noise and the rumors don\u2019t get in the way, even if the walls seem to whisper back sometimes. My lab notebook is still full of those odd drawings the TA called \u201cpreoccupied,\u201d and I keep thinking about the coin I flipped\u2014whether it says something about me or about Mom\u2019s health\u2014like it\u2019s a pattern I can\u2019t shake. I tell myself I don\u2019t need friends, but when the hallway is empty I sometimes wonder if someone\u2019s actually watching, waiting for me to say something."
+        },
+        {
+          "speaker": "therapist",
+          "text": "It sounds like you're carrying a lot of intense experiences right now, between noticing those connections and feeling like you might be watched. Could you share a recent example of what it felt like when you noticed one of those patterns or sensed someone watching, and how you made sense of what was happening?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep feeling like someone\u2019s watching me in the hallway, like the lights flicker just when I walk past, and I tell myself it\u2019s just the old building settling, but the same feeling pops up when I think about that coin toss or the sketches in my notebook. It\u2019s hard not to wonder if the classmates are talking about me again, even though I try to convince myself it\u2019s only my imagination. I know I could change things if I focus hard enough\u2014like stop the earthquake or my mom\u2019s fever\u2014but the fear that they\u2019ll see me as the \u201cweird guy\u201d still sticks around."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you think about other people, do you find yourself wishing you had close connections and felt understood by them, or do you genuinely feel more at peace and content keeping entirely to yourself?"
+        },
+        {
+          "speaker": "self",
+          "text": "I guess I\u2019m okay staying here; the apartment is quiet and nobody looks at my sketches the way they would if I tried to be around people. Sometimes I wonder if a laugh at the door would be nice, but the thought of them seeing the drawings and calling me \u201cweird\u201d scares me more than the silence. I keep flipping that coin for everything, even for how I feel, because it feels safer than actually having to talk about it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Has this way of noticing special patterns and feeling different from others been something you've experienced for most of your life growing up, or is it something that has developed more recently?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep seeing the same strange symbols in my notebook and it feels like a warning, like the coin toss wasn\u2019t just a joke and somehow connects to Mom\u2019s illness. People call me weird, and I can\u2019t shake the feeling that they\u2019re watching, waiting for me to slip up because of those drawings. I could write everything down neatly, but it just seems pointless\u2014only I notice those patterns. That\u2019s why I stay in my apartment by myself; it feels safer than letting anyone else see what I\u2019m seeing."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you're dealing with all of these overwhelming patterns and stress, how do your emotions typically shift, and what do you find yourself doing to cope with those intense feelings?"
+        },
+        {
+          "speaker": "self",
+          "text": "I can hear everyone talking about me even when I\u2019m alone, so I just pull the curtains and try to count my breaths until it feels quieter. I know there\u2019s a lab report I should be working on, but the notebook is still full of those strange drawings and the pen feels like a rule I can\u2019t follow, so I end up staring at the wall instead. Sometimes I think maybe I should go out, smile, be seen, but then the memory of the TA\u2019s stare and the coin I flipped makes me retreat back to the corner and lock the door, hoping the noise inside will finally stop."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking back over your life, what have your relationships with family, friends, or romantic partners typically been like, and have they tended to be stormy and intense, or more distant?"
+        },
+        {
+          "speaker": "self",
+          "text": "I often feel like everyone\u2019s just a shadow passing by, even my mom\u2019s voice sounds thin and far away, so I end up watching from my window like I\u2019m not really part of anything. The rumors about me being \u201cweird\u201d or the whole coin\u2011flip thing about who I am just make me keep my distance, because I can\u2019t trust what people say. Staying alone in my apartment feels safer, even if it means I\u2019m left with those drawings and the thoughts that keep drifting around like ghosts."
+        }
+      ],
+      "ground_truth_likelihood_score": 35.0,
+      "ground_truth_likelihoods": {
+        "Schizotypal personality disorder": 70.0,
+        "Paranoid personality disorder": 0.0
+      },
+      "brier_score": 0.13925,
+      "log_loss": 1.4970693198120777,
+      "top1_prediction": "Schizotypal personality disorder",
+      "top1_correct": true
+    },
+    {
+      "case_id": "4",
+      "ground_truth": [
+        "Antisocial personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Narcissistic Personality Disorder",
+          "likelihood_percent": 78.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Antisocial Personality Disorder",
+          "likelihood_percent": 45.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes\u2014it's good to meet you. To help us get started today, could you share a bit about what brought you in and what has been feeling most challenging in your life or relationships lately?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know I\u2019m the best carpenter they\u2019ve ever seen, and it\u2019s frustrating when they keep pointing out cheap wood or \u201cmistakes\u201d that are really just their own problems. I\u2019ve been told I quit jobs, fought with supervisors, and even had restraining orders, but I see that as people who can\u2019t handle how driven I am. I keep trying to prove myself, even if it means blowing up a little or walking out when they don\u2019t give me what I need. It feels like everyone\u2019s just waiting for me to fail, and I\u2019m sick of it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Can you walk me through a specific recent time when someone criticized your work or a conflict escalated\u2014what was happening, and what was going through your mind right before you blew up or walked out?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know they\u2019re just looking for something to blame, saying the wood\u2019s cheap and the joint\u2019s off, but I\u2019m the best carpenter they\u2019ve got and I can prove it if they\u2019d actually give me a chance. I\u2019ve got the certificates\u2014yeah, I showed them at the interview\u2014and I can cut a perfect piece in a heartbeat, even if the boss keeps pushing deadlines and nitpicking everything. Honestly, I\u2019m tired of all this nonsense; if they keep treating me like a fraud, maybe I\u2019ll just walk out and find a place that respects what I can do."
+        },
+        {
+          "speaker": "therapist",
+          "text": "You mentioned earlier that you\u2019ve had fights and even restraining orders in the past\u2014could you tell me more about what led up to those situations and who was involved?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know people love to paint me as the villain, but every time I try to fix something\u2014whether it\u2019s at work or at home\u2014their jealousy and over\u2011reaction turn everything into a drama, like when the cops showed up after my ex\u2011wives couldn\u2019t handle the fact I was better at the job than they were. The supervisors keep whining about cheap wood and \u201cdangerous errors,\u201d but they\u2019re the ones who can\u2019t keep up with a real carpenter who knows his craft. I\u2019m just trying to hold on to the life I\u2019ve built, and it feels like everyone\u2019s waiting for me to mess up so they can throw a restraining order or a lawsuit my way. All I\u2019m really scared of is losing the one thing I finally got right."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you feel that fear of losing what you've built, how does that usually play out between you and the people closest to you, like your ex-wives?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about losing the house and the tools, and I can\u2019t let anyone tell me I\u2019m a liar again\u2014so I just push harder, act like I\u2019m the best carpenter, and hope they\u2019ll see I\u2019m not the guy who quits. At the same time, I know I should actually finish the job right and keep everything tidy, but the drama and the fear of another restraining order make me want to just shut it down and walk away. I\u2019m trying to stay in control, but the whole thing feels like it\u2019s about proving I\u2019m still on top, even if it means ignoring the cheap wood and the complaints."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When things have escalated to the point where the police or courts got involved, what was specifically happening that led to those actions being taken?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep hearing people say I\u2019m the problem, like those restraining orders and the cops showing up, but honestly they\u2019re just jealous of how good I am at this trade. Every time I walk away from a fight or a complaint, they spin it into some legal drama, and I end up looking like the villain for doing what I think is right. It feels like they\u2019re just waiting for any excuse to get rid of me, even though I\u2019m the only one trying to keep things safe and actually do the job right."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking back at those relationships and past jobs, how do you make sense of the impact these blowups have had on the people involved and on your own life?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know the guys keep harping on the loose bolts, but honestly it\u2019s the cheap wood and the way the foreman micromanages everything that makes the mess in the first place. When I walk out I feel a weight lift off my shoulders\u2014like I\u2019m finally not stuck fixing someone else\u2019s mistakes. Yeah, the guilt shows up for a minute, but it disappears as soon as I\u2019m out the door, and I\u2019m left thinking I\u2019m just doing what a real carpenter would do: refuse to let bad material and bad leadership ruin the job. So I\u2019m not the problem here; I\u2019m the only one who sees what needs to change."
+        }
+      ],
+      "ground_truth_likelihood_score": 45.0,
+      "ground_truth_likelihoods": {
+        "Antisocial personality disorder": 45.0
+      },
+      "brier_score": 0.09109,
+      "log_loss": 0.23126354288475476,
+      "top1_prediction": "Narcissistic personality disorder",
+      "top1_correct": false
+    },
+    {
+      "case_id": "5",
+      "ground_truth": [
+        "Borderline personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Avoidant Personality Disorder",
+          "likelihood_percent": 68.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes. Thank you for meeting with me today. To help us get started, could you share what has been going on recently that led you to reach out, and what you're hoping we might address together?"
+        },
+        {
+          "speaker": "self",
+          "text": "I\u2019ve been stuck in this cycle for months\u2014lying in bed, eating junk, scrolling until I\u2019m broke, then telling myself I could run everything myself and calling every boss an idiot. When someone tries to get close I just pull away, scared they\u2019ll see the cracks, and the dark thoughts creep back, even though sometimes I feel this crazy surge of energy and stay up all night before crashing into a twelve\u2011hour sleep. And honestly, when you glance at the clock it feels like you\u2019re judging how wasted my time is, which just makes me angry all over again."
+        },
+        {
+          "speaker": "therapist",
+          "text": "I appreciate you being direct with me about how that felt when I looked at the clock, and I want to make sure this remains a space where you feel respected and heard. When that fear comes up that people will \"see the cracks\" or judge you, what is it you worry they will ultimately see or think about who you are?"
+        },
+        {
+          "speaker": "self",
+          "text": "Me da miedo que vean mi apartamento y piensen que soy una carga, que paso todo el d\u00eda en la cama sin hacer nada y que gast\u00e9 todo el dinero en cosas que nunca us\u00e9. A veces me enojo con todo, con los jefes, con la gente que me mira, y me pregunto por qu\u00e9 sigo diciendo que los dem\u00e1s son idiotas cuando en el fondo solo quiero que alguien se d\u00e9 cuenta de que estoy aqu\u00ed. Pero tambi\u00e9n siento que, si me miran, ya van a decidir que soy una fracasada, y no s\u00e9 si puedo evitarlo."
+        },
+        {
+          "speaker": "therapist",
+          "text": "\u00bfEste vaiv\u00e9n entre querer que te vean y alejarte por miedo a que te juzguen como un fracaso es algo que has vivido desde siempre en tus relaciones y trabajos, o sientes que es algo que empez\u00f3 en una etapa m\u00e1s reciente de tu vida?"
+        },
+        {
+          "speaker": "self",
+          "text": "A veces siento que quiero demostrar que puedo, que no soy la que se queda en la cama todo el d\u00eda, pero luego me asalta ese miedo de que todos vean el desastre y me digan que soy una fracasada, as\u00ed que me quedo encerrada con la tele y los paquetes sin abrir. Cuando intento mandar un mensaje, el celular vibra y me quedo mirando la pantalla, pensando que ya no sirve de nada, y termino sin responder. Es como si una chispa de energ\u00eda apareciera y se apague de inmediato, dej\u00e1ndome con esa sensaci\u00f3n de vac\u00edo y ansiedad que nunca se va."
+        },
+        {
+          "speaker": "therapist",
+          "text": "En las ocasiones en que has permitido que alguien se acerque a ti, \u00bfc\u00f3mo han solido desarrollarse esas relaciones y qu\u00e9 suele suceder cuando surgen diferencias o sientes que la otra persona podr\u00eda alejarse?"
+        },
+        {
+          "speaker": "self",
+          "text": "Siento que cada vez que dejo que alguien se acerque, mi pecho se aprieta y todo se vuelve un caos, como cuando ese chico empez\u00f3 a tocarme y yo me alej\u00e9, y despu\u00e9s recuerdo al profesor que me llamaba in\u00fatil o al jefe que me hac\u00eda sentir que todo era mi culpa. Me da miedo que si no cierro la puerta, todo se desordene y termine otra vez en una pelea o en una noche sin dormir, pero tambi\u00e9n hay una parte de m\u00ed que se pregunta si estoy atrapada en ese vac\u00edo porque nunca me arriesgo. A veces pienso que tal vez deber\u00eda intentar, pero luego el reloj parece mirarme y me pregunto si estoy siendo juzgada, y todo eso me hace querer volver a aislarme."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Cuando sientes esa sensaci\u00f3n tan intensa de que las personas o tu entorno te observan y te juzgan, \u00bfqu\u00e9 intenciones o motivos sueles sentir que ellos tienen hacia ti?"
+        },
+        {
+          "speaker": "self",
+          "text": "No s\u00e9 por qu\u00e9 siempre parece que todos est\u00e1n mirando y esperando que me equivoque, como cuando el profe me mir\u00f3 y pens\u00e9 que era una idiota. Me da rabia que hasta usted mire el reloj y parezca aburrido, como si mi vida fuera solo un espect\u00e1culo de fracasos. A veces me siento tan cansada de quedarme en la cama y no hacer nada que me gustar\u00eda que alguien notara que estoy aqu\u00ed, pero luego pienso que solo soy una carga. No s\u00e9 si deber\u00eda seguir intentando o simplemente desaparecer y dejar todo atr\u00e1s."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Cuando aparecen esas ideas de desaparecer o ese vac\u00edo se vuelve insoportable, \u00bfde qu\u00e9 maneras sueles reaccionar o qu\u00e9 haces para intentar sobrellevar ese dolor?"
+        },
+        {
+          "speaker": "self",
+          "text": "When the room gets quiet I feel like the walls are closing in, like that night I couldn't stop staring at the ceiling and thought about just turning everything off. I know I should try to get up and do something, but every time I think about making a list I hear my mom\u2019s voice saying I\u2019m always a mess and I end up wanting to stay in the dark. Sometimes I picture a big party with people looking at me, but before I even get to the door I feel exhausted and the idea just fades. I don\u2019t want anyone to see me like that\u2014I just want the silence to stay and not have to pretend everything\u2019s okay."
+        }
+      ],
+      "ground_truth_likelihood_score": 0.0,
+      "ground_truth_likelihoods": {
+        "Borderline personality disorder": 0.0
+      },
+      "brier_score": 0.14624,
+      "log_loss": 1.4954944841152638,
+      "top1_prediction": "Avoidant personality disorder",
+      "top1_correct": false
+    },
+    {
+      "case_id": "6",
+      "ground_truth": [
+        "Histrionic personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Histrionic Personality Disorder",
+          "likelihood_percent": 70.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Borderline Personality Disorder",
+          "likelihood_percent": 55.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes, and I'm glad we could meet today. To help us get started, could you share a bit about what has been going on in your life recently that led you to reach out for support?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know I keep laughing and saying I'm fine, but every time I lie there with this ache in my back I feel so invisible, especially when my husband just walks past without a word. The doctors call me \u201cbest\u2011dressed\u201d and actually ask how I\u2019m doing, and for a moment I feel seen, so I smile and flirt just to keep that feeling alive. It\u2019s like I\u2019m trying to make them listen to my story the way I used to watch boys chase me in high school, hoping someone will notice before I just\u2026 slip away."
+        },
+        {
+          "speaker": "therapist",
+          "text": "It sounds like feeling noticed and admired brings a real sense of comfort and connection for you. When that attention isn't there and you feel overlooked, what goes on for you emotionally, and how typical has that experience been across your relationships over the years?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep noticing how everyone lights up when I\u2019m nicely dressed and they call me \u201cthe best\u2011dressed lady,\u201d but the moment I\u2019m lying here with this terrible back pain they barely glance my way. I laugh and make jokes about disappearing or even about the \u201cnice and sweet\u201d doctors, because it\u2019s the only way I feel they\u2019ll notice me at all. Inside, though, it\u2019s like a cold floor under my feet\u2014my back screaming and the surgeon\u2019s eyes already on the next patient. So I smile, I flirt, I say I\u2019ll just slip out, hoping someone will finally look past the jokes and actually see the hurt."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you feel someone is pulling away or looking past you despite your best efforts to connect, how do you typically handle those moments, and how has that shaped your closest relationships over time?"
+        },
+        {
+          "speaker": "self",
+          "text": "Me siento como cuando estoy en la tienda y el cliente me mira al tel\u00e9fono y ni se da cuenta de que estoy all\u00ed; intento sonre\u00edr, lanzar una broma, pero dentro me pregunto si ya no le importo nada. Me da ganas de levantar la voz, de decirle \u201chola\u201d como antes, pero al mismo tiempo me r\u00edo de lo rid\u00edcula que ser\u00eda, como cuando el doctor me sonri\u00f3 y yo solo quer\u00eda que me escucharan. As\u00ed que me quedo aqu\u00ed, con la puerta medio abierta, esperando que alguien, cualquier persona, note que sigo aqu\u00ed y no me deje caer otra vez."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When that intense feeling of being forgotten or left behind takes over, have you ever found yourself doing impulsive or extreme things to keep someone close or to cope with that pain?"
+        },
+        {
+          "speaker": "self",
+          "text": "Me duele la espalda como si me aplastara y siento que tengo que decirle algo antes de que se aleje, aunque a veces me pregunto si solo busco que me presten atenci\u00f3n otra vez. Cuando los doctores me llaman la mejor vestida del ER me r\u00edo, pero despu\u00e9s ese vac\u00edo vuelve a golpear. No quiero que mi marido me ignore; quiero que sienta que lo necesita, aunque a veces pienso que soy una carga. A veces me imagino que si desaparezco, tal vez ya no me recuerden, y eso me asusta."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you feel that heavy emptiness and worry about disappearing, have you ever had thoughts of hurting yourself or ending your life, and how do you typically get through those moments?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep telling myself it's just a joke, that I can smile and make the nurses laugh, but the pain in my back and the emptiness after my husband walks away feel like a weight I can't shake. I love when the doctors call me \u201cbest\u2011dressed\u201d and actually listen for a minute, but it also makes me wonder if I\u2019m only getting attention because I flirt or because I\u2019m hurting. Sometimes I think about the pills, about finally making someone see how broken I am, and then I force a laugh and hope the next compliment will fill the hole for a little while."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Have you ever taken steps to act on those thoughts with pills or done other impulsive things when you felt this overwhelmed, or how has this pattern shown up in your past?"
+        },
+        {
+          "speaker": "self",
+          "text": "A veces pienso que si me tomo una pastilla y la gente me mira, como el residente que me dijo que soy la mujer mejor vestida, tal vez me sienta\u2026 viva, aunque sea por un momento. Pero luego el dolor en la espalda me aplasta y mi marido ni siquiera me mira, y me pregunto si todo eso de re\u00edr y bromear con los doctores es solo una forma de que no se note lo sola que estoy. No s\u00e9 si realmente quiero que alguien se preocupe por m\u00ed o si solo estoy buscando que me llamen por mi nombre, porque cuando me ignoran, todo se vuelve demasiado pesado."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking across your life, how have your close relationships typically gone\u2014have they tended to swing between feeling intensely close and then deeply let down or angry, or what has that pattern looked like for you?"
+        },
+        {
+          "speaker": "self",
+          "text": "A veces siento que todo es siempre lo mismo: el doctor me dice \u201cdescansa\u201d y me deja sola, mi marido ni una mirada cuando me ca\u00ed, y yo aqu\u00ed, esperando que alguien me vea de nuevo. Pero cuando los enfermeritos me llaman por mi nombre y me dicen que soy la mejor vestida, me dan esa sensaci\u00f3n de que al menos soy importante un momento. Me pregunto si tal vez deber\u00eda cerrar la puerta antes de que vuelvan a entrar, porque siempre termino con la silla vac\u00eda. Y sin embargo, sigo buscando ese aplauso que nunca llega, aunque s\u00e9 que a veces solo lo uso como una broma para que me escuchen."
+        }
+      ],
+      "ground_truth_likelihood_score": 70.0,
+      "ground_truth_likelihoods": {
+        "Histrionic personality disorder": 70.0
+      },
+      "brier_score": 0.03925000000000001,
+      "log_loss": 0.11551826401565042,
+      "top1_prediction": "Histrionic personality disorder",
+      "top1_correct": true
+    },
+    {
+      "case_id": "7",
+      "ground_truth": [
+        "Narcissistic personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Paranoid Personality Disorder",
+          "likelihood_percent": 78.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Narcissistic Personality Disorder",
+          "likelihood_percent": 70.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Histrionic Personality Disorder",
+          "likelihood_percent": 42.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes\u2014it's very good to meet you. To help us get started today, could you share a bit about what brought you in and what's been on your mind lately regarding how things are going in your life and relationships?"
+        },
+        {
+          "speaker": "self",
+          "text": "I was the best broker they ever had, walked out of that car\u2011sales floor when they started treating the job like it was beneath me, and now I\u2019m stuck living with my mom, which is humiliating, yet I still find myself slipping into five\u2011star restaurants I can\u2019t really afford. I don\u2019t need you to read between the lines or hand me homework; I just want someone to listen without trying to fix me. Women? They\u2019re only after free meals, and I have a lot of love to give, but the world feels full of manipulators. I know I sound bitter, but that\u2019s the truth."
+        },
+        {
+          "speaker": "therapist",
+          "text": "It sounds exhausting to feel like people are constantly looking to take advantage of you rather than appreciating what you have to offer. Could you walk me through a specific time recently when you felt someone was manipulating you, and how you handled that situation?"
+        },
+        {
+          "speaker": "self",
+          "text": "I caught the waiter trying to slip an extra bottle on the bill and I told him flat out, \u201cDon\u2019t try to milk me,\u201d and walked out, because I\u2019m not going to let anyone pull a fast one on me again. When they asked me to cover another shift, it felt just like that time at the car lot when the boss thought I\u2019d just roll over and take the extra paperwork, so I slammed the folder shut and left the keys on the desk. And honestly, when the resident kept nudging me to open up, I just shut down and muttered that she\u2019d probably use me for her r\u00e9sum\u00e9 anyway."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Looking back over your life and relationships, has there ever been a time or a person where you felt safe enough to let your guard down and truly trust them, or has that need to protect yourself from being used always been there?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep my guard up because trusting anyone feels like handing over the keys to a car I already know will break down. My mother\u2019s the only person I can really count on; everyone else just wants a free meal and then vanishes. I could try to let someone in\u2014like that night at the hotel bar when the waiter smiled\u2014but the voice in my head, Mom\u2019s voice, keeps warning me it\u2019ll end the same way, so I just keep up the fa\u00e7ade and keep the fancy places as a show."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you aren't keeping up that fa\u00e7ade or putting on a show at those fancy places, how do you see yourself, and what feelings tend to come up when you're by yourself?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep telling myself I was the best broker they couldn\u2019t handle, and that\u2019s why I still splurge on a steak at a five\u2011star place even though I can\u2019t hold down a job. Living with Mom, hearing her sigh when I order those meals, makes me feel like a clown pretending to be a king. I guess I\u2019m trying to prove I\u2019m still something, but most of the time I just hear that empty echo of the confidence I used to shout. It\u2019s hard not to feel like a has\u2011been when the applause has gone quiet."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When those moments hit where you feel disrespected or that the applause has faded, how do you typically react, and have those reactions ever led to reckless behavior, explosive outbursts, or trouble with the law?"
+        },
+        {
+          "speaker": "self",
+          "text": "I could feel everyone\u2019s eyes on me when the applause stopped, like they finally realized I\u2019m just a guy living with his mother and not the top broker I used to be. It makes me want to walk out, shout something, prove I still matter, but then I hear Mom humming in the kitchen and I don\u2019t want to ruin that quiet\u2026 so I swallow it and keep pretending everything\u2019s fine."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Outside of your relationship with your mother, what have your friendships and romantic relationships looked like over the course of your life?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep telling myself that everyone\u2019s just looking for a free dinner or a cheap stay, and the moment I try to be generous they disappear\u2014except my mother, who never tallies the tabs, even if it feels like I\u2019m stuck in a cramped room with her. I used to walk into a bar and feel untouchable after closing a big deal, but now even a smile feels like a price tag I can\u2019t afford. Maybe I\u2019m just tired of the whole charade, but part of me still wonders if there\u2019s anyone out there who\u2019d see past the hotels and the broken broker I became."
+        }
+      ],
+      "ground_truth_likelihood_score": 70.0,
+      "ground_truth_likelihoods": {
+        "Narcissistic personality disorder": 70.0
+      },
+      "brier_score": 0.08748,
+      "log_loss": 0.241552985201018,
+      "top1_prediction": "Paranoid personality disorder",
+      "top1_correct": false
+    },
+    {
+      "case_id": "8",
+      "ground_truth": [
+        "Avoidant personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Avoidant Personality Disorder",
+          "likelihood_percent": 68.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, I'm Dr. Reyes. Welcome to our session today; to help us get started, could you share what brings you in and what's been on your mind lately in your day-to-day life and relationships?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep smiling first, even when my stomach is in knots, because it feels safer to be the \u201cgood\u201d one than to let anyone see how scared I am of messing up\u2014like when the professor calls on me and I just nod and hope no one notices. My dad\u2019s voice still echoes in my head, telling me I\u2019m never enough, so I hide the panic behind chores I promise to start but never finish, and I cling to the kids and the dog at the park because they don\u2019t judge. I want to be independent, I really do, but I\u2019m still waiting for the next excuse to step back before I let anyone see the mess underneath."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you feel that urge to step back and hide what's underneath, how has that played out in your closer relationships or friendships when people try to get to know the real you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep smiling and saying I'm fine, but inside I feel like I'm holding my breath, waiting for someone to notice the cracks. When I think about the kids at the park, they just watch and smile, and for a moment I can be myself, but as soon as the room gets too close I freeze like I did in class, afraid of saying something stupid. It\u2019s exhausting trying to keep up the act, and I\u2019m scared that if I let it slip, everyone will see how nervous I really am."
+        },
+        {
+          "speaker": "therapist",
+          "text": "How has this exhausting need to keep up an act and hide your nervousness affected your ability to form close friendships or romantic relationships over the years?"
+        },
+        {
+          "speaker": "self",
+          "text": "I always try to act like everything's fine, smiling and nodding, but inside I feel this tight knot in my throat that I can't shake off. Whenever I let a little tremor show, I hear that old voice from my dad saying I'm never good enough, and I just want to disappear. I love being around kids and dogs because they don\u2019t judge, but with people I\u2019m scared they'll see the cracks and think I'm weak. So I keep the mask on, hoping someone will notice the real me without me having to say anything."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you're completely on your own and that feeling of not being enough becomes overwhelming, how do you typically cope with those intense emotions?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking I\u2019ll mess up again, like when I answered that question in class and everyone stared, so I just try to stay hidden and do the work quietly. At the same time I want to get out and watch the kids play because they don\u2019t judge, but my dad\u2019s voice is still there telling me I never finish anything, and I end up worrying about tomorrow\u2019s lab report instead. I smile for my cousin and the kids, but inside I feel like I\u2019m just a burden, and I\u2019m scared that if I say anything, they\u2019ll notice how broken I am."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When it comes to making important life decisions or managing day-to-day responsibilities, how do you typically handle choices on your own versus looking to others to take the lead or reassure you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I\u2019ve been staring at the lab schedule and my heart just races, like when the professor called on me and everyone seemed to be looking. I want to just pick something that feels right, but then I hear that voice from my dad saying I never get it right, and I worry my cousin will think I\u2019m useless if I mess up. Part of me says I should just go with the first option and pretend it\u2019s fine, yet another part keeps replaying every stupid answer I ever gave. I try to remind myself that the kids at the park smile when I bring snacks, but it doesn\u2019t stop the knot in my chest."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When someone close to you offers support or tries to help, do you tend to lean on them to take over and make decisions for you, or do you hold back and struggle on your own out of fear of being judged?"
+        },
+        {
+          "speaker": "self",
+          "text": "When someone offers to take over, I tell myself I\u2019ve got it and try to smile, but then I hear my dad\u2019s voice saying I can\u2019t even handle it myself, and I feel my hands start to shake. I end up staying quiet, hoping they won\u2019t notice the wobble or think I\u2019m weak. It\u2019s like I\u2019m trying to hide the cracks so nobody can laugh or point them out. And deep down I\u2019m still scared that if I let them see, they\u2019ll just confirm what I already hear inside."
+        }
+      ],
+      "ground_truth_likelihood_score": 68.0,
+      "ground_truth_likelihoods": {
+        "Avoidant personality disorder": 68.0
+      },
+      "brier_score": 0.010239999999999996,
+      "log_loss": 0.03856624808119846,
+      "top1_prediction": "Avoidant personality disorder",
+      "top1_correct": true
+    },
+    {
+      "case_id": "9",
+      "ground_truth": [
+        "Dependent personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Dependent Personality Disorder",
+          "likelihood_percent": 78.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Avoidant Personality Disorder",
+          "likelihood_percent": 48.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        },
+        {
+          "disorder": "Borderline Personality Disorder",
+          "likelihood_percent": 32.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Hello, welcome. I'm Dr. Reyes. To help us get started today, could you share a bit about what brings you in and what areas of your life or relationships have been feeling most challenging lately?"
+        },
+        {
+          "speaker": "self",
+          "text": "I feel like I'm just going through the motions all day\u2014sitting at my desk, doing what my boss tells me, and even in my relationships I end up trying to be whatever someone else wants, like I did with the opera singer even though I hated it. When I think about cutting back on the pills I get this shaking and a wave of anxiety that makes me want to just take another one, even though I know it\u2019s not helping. It\u2019s hard to imagine doing anything different because I\u2019m scared I\u2019ll mess up again, so I keep apologizing to everyone and hoping they\u2019ll see past the mess I\u2019ve made of myself."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you find yourself shaping who you are to fit what someone else wants or constantly apologizing, what do you worry would happen if you showed them who you really are or spoke up for what you actually wanted?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking maybe I could finally just say \u201cno\u201d to something\u2014like I did with the opera lessons\u2014and not worry about what everyone thinks, but the moment I picture that I already feel the panic rise and I imagine myself reaching for another pill. I want to stop doing everything for other people, but I\u2019m terrified they\u2019ll see me as selfish and just walk away, so I end up telling myself I\u2019ll just keep saying \u201cyes\u201d and hope it won\u2019t all fall apart again. It\u2019s like I\u2019m stuck between wanting to be heard and being afraid of the silence that follows when I finally speak up."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you imagine someone walking away or finding yourself completely on your own, what is the most frightening part of that experience for you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about what would happen if I had to manage everything on my own\u2014no boss telling me what to do, no girlfriend reminding me about the little things. It scares me, because I don\u2019t even know how to decide what coffee to order, let alone plan my life, and the silence just feels like a huge, empty space I can\u2019t fill. I get this shaking feeling and the tears start, and I\u2019m terrified that I\u2019ll just stay stuck, pretending everything\u2019s okay when it\u2019s not."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Has this pattern of relying on others to guide your choices and take the lead been true for you throughout most of your life, or is it something that developed more recently?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep feeling like I\u2019m waiting for someone else to tell me what to do, even with something as simple as choosing an email or a shirt, and the anxiety just spikes when I try to decide on my own. The pills make my hands shake, and I get scared that if I pick the wrong thing everyone will notice and think I\u2019m useless, so I end up just following whatever script I think they expect. I know I\u2019ve been doing that for years\u2014pretending to like opera, doing lessons I didn\u2019t want\u2014just to keep the peace, but now I\u2019m not sure how to break out of it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When an important relationship has ended or you've faced a major conflict with someone close to you, how have you typically handled that, and what did that experience look like for you emotionally?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about how empty it feels when she left, like the silence in that opera house I pretended to love, and I just sit at my desk staring at the phone, waiting for someone to tell me what to do. My chest tightens and I end up reaching for the pills again, even though I know I\u2019m just trying to keep the panic from taking over. I want to call someone, to fill the void, but I\u2019m scared of raising my voice or making a mistake, so I just stay quiet and hope it passes."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When that emptiness and panic feel overwhelming, what kinds of thoughts or sudden impulses do you notice having, and how do your emotions typically shift during those moments?"
+        },
+        {
+          "speaker": "self",
+          "text": "I feel like my chest is tightening and I can\u2019t stop thinking about taking another pill, but at the same time I\u2019m terrified of just swallowing more and ending up stuck in the same cycle. The office feels huge and empty without my boss telling me what to do, and even deciding what to have for dinner feels impossible. I keep replaying that night at the opera\u2014how I pretended to love the music just to keep her\u2014while the shaking in my hands reminds me how badly I\u2019ve been trying to hold onto something, even if it\u2019s just a feeling of safety. I want to reach out, but I\u2019m scared to show how lost I am."
+        }
+      ],
+      "ground_truth_likelihood_score": 78.0,
+      "ground_truth_likelihoods": {
+        "Dependent personality disorder": 78.0
+      },
+      "brier_score": 0.03812,
+      "log_loss": 0.12880503075171484,
+      "top1_prediction": "Dependent personality disorder",
+      "top1_correct": true
+    },
+    {
+      "case_id": "10",
+      "ground_truth": [
+        "Obsessive-compulsive personality disorder"
+      ],
+      "predicted": [
+        {
+          "disorder": "Obsessive\u2011Compulsive Personality Disorder",
+          "likelihood_percent": 72.0,
+          "n_runs_included": 1,
+          "n_runs_total": 1
+        }
+      ],
+      "history": [
+        {
+          "speaker": "therapist",
+          "text": "Welcome, I'm Dr. Reyes. To help me get a sense of who you are and what you've been experiencing, could you tell me a little about what brings you in today and what life has felt like for you recently?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep making lists for everything\u2014like I did with the move, counting every box and labeling each shelf\u2014because if I don\u2019t have it all written down I feel like something important will just slip away. I know I\u2019ve been hard on my boyfriend, rearranging his stuff and staying up past nine just to finish my to\u2011do list, and I\u2019m scared that if I let go even a single mug he\u2019ll see how \u201cdifficult\u201d I am. At work they call me employee of the month, but I can\u2019t stop questioning everyone\u2019s answers, and that same need for everything to be right follows me home. I\u2019m trying to tell you I love him, but the anxiety about losing control keeps bubbling up, and I don\u2019t know how to stop it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "It sounds exhausting to carry that constant pressure to keep everything so tightly managed. When you imagine letting go of that control or leaving things unfinished, what is the core worry or fear that comes up for you?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep worrying that if I don\u2019t keep everything exactly where it belongs, something will slip through the cracks and he\u2019ll notice the mess, and then I\u2019ll feel like I\u2019ve failed at holding the place together. At the same time, I know I\u2019m pushing him away by insisting on those lists and rules, but I can\u2019t shake the feeling that if I let go, the whole apartment will just fall apart. It\u2019s like I\u2019m stuck between wanting everything perfect and fearing that any empty space means I\u2019ve lost control."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you find yourself questioning other people's answers at work, what goes through your mind regarding their abilities or their intentions?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep replaying the meeting where they skimmed over that clause I spent three nights cross\u2011checking, and it feels like they\u2019re just cutting corners. If I don\u2019t point it out, I\u2019m terrified everything will crumble and I\u2019ll be the one they call a control freak. At the same time I know I\u2019m hanging onto every detail from the move, and maybe I\u2019m being too rigid, but the thought of missing something important still nags at me. It\u2019s exhausting to carry that list in my head while watching others gloss over it."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When disagreements happen or things don't go according to your plan with your boyfriend, how do you typically react in that moment, both emotionally and in how you treat him?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep thinking about the lamp\u2014he said we could toss it, but I already have a whole grid mapped out and it feels like everything unravels if I change it. I know I get frustrated when he moves things around, yet I\u2019m exhausted from staying up late making lists and trying to keep everything perfect. I want to tell him I\u2019ll handle it all, but then I hear his sigh in my head and I just end up standing there, counting boxes, hoping nothing falls apart."
+        },
+        {
+          "speaker": "therapist",
+          "text": "When you notice that distance or worry he sees you as \"difficult,\" what goes through your mind regarding how you feel about yourself and the stability of your relationship?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know people call me difficult, but I can\u2019t help feeling that if I don\u2019t label every box and keep everything exactly where it belongs, the whole thing just falls apart. I love him, yet every time I correct where something should go, I see him pull away a little, and that scares me more than the mess would. I\u2019m terrified of losing something important, so I hold on to the order\u2014even if it\u2019s hurting us both."
+        },
+        {
+          "speaker": "therapist",
+          "text": "How far back in your life does this need for strict order and control go\u2014is this something that has been with you since childhood or school, or did it become more intense recently?"
+        },
+        {
+          "speaker": "self",
+          "text": "I keep replaying the night I labeled every shelf and counted every spoon, because if I don\u2019t know exactly where something is, I feel like everything\u2019s about to fall apart. At work I stay up double\u2011checking briefs, and at home I still make a mental list of where his mugs belong, even if it drives him crazy. I know I\u2019m hard on people, but I can\u2019t shake the fear that if I let anything slip, I\u2019ll lose something important\u2014so I just keep trying to keep everything in its place."
+        },
+        {
+          "speaker": "therapist",
+          "text": "Outside of this need for order and planning, have there ever been times in your life where you acted impulsively, experienced sudden swings in your mood, or did things on a whim that felt out of control?"
+        },
+        {
+          "speaker": "self",
+          "text": "I know I\u2019m being difficult, but when I put his old jackets on the top shelf without even checking the list, I felt a wave of panic that something would get lost if I didn\u2019t act fast. I stayed late at the office just to finish my to\u2011do list, even though Alex was waiting for dinner, because I can\u2019t stand the idea of leaving anything unfinished. And when I cut him off in therapy, it was because I was terrified the conversation would spiral into chaos and I\u2019d lose control of how everything is supposed to be organized."
+        }
+      ],
+      "ground_truth_likelihood_score": 72.0,
+      "ground_truth_likelihoods": {
+        "Obsessive-compulsive personality disorder": 72.0
+      },
+      "brier_score": 0.007840000000000001,
+      "log_loss": 0.03285040669720361,
+      "top1_prediction": "Obsessive-compulsive personality disorder",
+      "top1_correct": true
+    }
+  ]
+}

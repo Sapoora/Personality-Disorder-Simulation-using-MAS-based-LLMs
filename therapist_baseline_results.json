@@ -1,0 +1,614 @@
+[
+  {
+    "case_id": "1",
+    "ground_truth_all": [
+      "Paranoid personality disorder",
+      "Obsessive-compulsive personality disorder"
+    ],
+    "ground_truth": [
+      "Paranoid personality disorder",
+      "Obsessive-compulsive personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 90.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Obsessive-compulsive personality disorder": 90.0,
+      "Paranoid personality disorder": 90.0
+    },
+    "brier_score": 0.012249999999999999,
+    "log_loss": 0.10174505593521292,
+    "top1_prediction": "Paranoid personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "2",
+    "ground_truth_all": [
+      "Schizoid personality disorder"
+    ],
+    "ground_truth": [
+      "Schizoid personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 55.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 75.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 20.0
+      }
+    ],
+    "ground_truth_likelihood_score": 55.0,
+    "ground_truth_likelihoods": {
+      "Schizoid personality disorder": 55.0
+    },
+    "brier_score": 0.087,
+    "log_loss": 0.27430338035009233,
+    "top1_prediction": "Schizotypal personality disorder",
+    "top1_correct": false
+  },
+  {
+    "case_id": "3",
+    "ground_truth_all": [
+      "Schizotypal personality disorder",
+      "Paranoid personality disorder"
+    ],
+    "ground_truth": [
+      "Schizotypal personality disorder",
+      "Paranoid personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 35.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 35.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 95.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 0.0
+      }
+    ],
+    "ground_truth_likelihood_score": 65.0,
+    "ground_truth_likelihoods": {
+      "Schizotypal personality disorder": 95.0,
+      "Paranoid personality disorder": 35.0
+    },
+    "brier_score": 0.05575,
+    "log_loss": 0.16372588506365088,
+    "top1_prediction": "Schizotypal personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "4",
+    "ground_truth_all": [
+      "Antisocial personality disorder"
+    ],
+    "ground_truth": [
+      "Antisocial personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 95.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 45.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 0.0
+      }
+    ],
+    "ground_truth_likelihood_score": 95.0,
+    "ground_truth_likelihoods": {
+      "Antisocial personality disorder": 95.0
+    },
+    "brier_score": 0.02525,
+    "log_loss": 0.10254614485262714,
+    "top1_prediction": "Antisocial personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "5",
+    "ground_truth_all": [
+      "Borderline personality disorder"
+    ],
+    "ground_truth": [
+      "Borderline personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 75.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 25.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 5.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Borderline personality disorder": 90.0
+    },
+    "brier_score": 0.068,
+    "log_loss": 0.2303682866322852,
+    "top1_prediction": "Borderline personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "6",
+    "ground_truth_all": [
+      "Histrionic personality disorder"
+    ],
+    "ground_truth": [
+      "Histrionic personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 45.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 25.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 20.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 0.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Histrionic personality disorder": 90.0
+    },
+    "brier_score": 0.032,
+    "log_loss": 0.13166097289545384,
+    "top1_prediction": "Histrionic personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "7",
+    "ground_truth_all": [
+      "Narcissistic personality disorder"
+    ],
+    "ground_truth": [
+      "Narcissistic personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 25.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 10.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 5.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Narcissistic personality disorder": 90.0
+    },
+    "brier_score": 0.01475,
+    "log_loss": 0.1133974655971012,
+    "top1_prediction": "Narcissistic personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "8",
+    "ground_truth_all": [
+      "Avoidant personality disorder",
+      "Social anxiety disorder"
+    ],
+    "ground_truth": [
+      "Avoidant personality disorder"
+    ],
+    "out_of_scope_ground_truth": [
+      "Social anxiety disorder"
+    ],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 5.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 25.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 5.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Avoidant personality disorder": 90.0
+    },
+    "brier_score": 0.00775,
+    "log_loss": 0.049562917688470834,
+    "top1_prediction": "Avoidant personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "9",
+    "ground_truth_all": [
+      "Dependent personality disorder",
+      "Benzodiazepine use disorder"
+    ],
+    "ground_truth": [
+      "Dependent personality disorder"
+    ],
+    "out_of_scope_ground_truth": [
+      "Benzodiazepine use disorder"
+    ],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 25.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 90.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 0.0
+      }
+    ],
+    "ground_truth_likelihood_score": 90.0,
+    "ground_truth_likelihoods": {
+      "Dependent personality disorder": 90.0
+    },
+    "brier_score": 0.0095,
+    "log_loss": 0.055556151760738214,
+    "top1_prediction": "Dependent personality disorder",
+    "top1_correct": true
+  },
+  {
+    "case_id": "10",
+    "ground_truth_all": [
+      "Obsessive-compulsive personality disorder"
+    ],
+    "ground_truth": [
+      "Obsessive-compulsive personality disorder"
+    ],
+    "out_of_scope_ground_truth": [],
+    "predicted": [
+      {
+        "disorder": "Paranoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizoid personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Schizotypal personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Antisocial personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Borderline personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Histrionic personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Narcissistic personality disorder",
+        "likelihood_percent": 15.0
+      },
+      {
+        "disorder": "Avoidant personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Dependent personality disorder",
+        "likelihood_percent": 0.0
+      },
+      {
+        "disorder": "Obsessive-compulsive personality disorder",
+        "likelihood_percent": 95.0
+      }
+    ],
+    "ground_truth_likelihood_score": 95.0,
+    "ground_truth_likelihoods": {
+      "Obsessive-compulsive personality disorder": 95.0
+    },
+    "brier_score": 0.0025000000000000005,
+    "log_loss": 0.02138122238853255,
+    "top1_prediction": "Obsessive-compulsive personality disorder",
+    "top1_correct": true
+  }
+]
